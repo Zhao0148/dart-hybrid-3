@@ -1,3 +1,5 @@
+import 'dart:core';
+
 class Student {
   List<Map<String, String>> people = [];
 
@@ -5,7 +7,7 @@ class Student {
     print('Student class constructor');
   }
 
-  void toSort(people){
-    people.toSort
+  void toSort(people) {
+    people.sort();
   }
 }
